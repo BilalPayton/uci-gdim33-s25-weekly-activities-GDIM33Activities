@@ -16,7 +16,7 @@ playing games that are difficult and give me a challenge to overcome.
 
 
 ### Activity 2
-[GDIM 33 Game Breakdown.pdf](https://github.com/user-attachments/files/26425671/GDIM.33.Game.Breakdown.pdf)
+<img width="1527" height="1147" alt="Screenshot 2026-04-01 193412" src="https://github.com/user-attachments/assets/efad88cf-da37-4cd7-86fe-e2b22ebb98f1" />
 
 
 
