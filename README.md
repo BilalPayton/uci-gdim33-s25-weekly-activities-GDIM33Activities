@@ -20,9 +20,28 @@ playing games that are difficult and give me a challenge to overcome.
 
 
 
-## W2
+## W3
 ### Activity 1
 <img width="1531" height="1143" alt="Screenshot 2026-04-15 175402" src="https://github.com/user-attachments/assets/7d5b7e77-8370-452f-8555-3800ac5d0e44" />
 
 
 ### Activity 2
+1. It is advantageous to save the event name clickNpcEventName for the explore-to-dialogue state transitions as Scene variable
+because it allows us to use and reference it throughout other Script Graphs as it is essentially a public variable, otherwise we
+would not have been able to trigger the event.
+
+2. I used a Debug.Log Node to help check if the custom event to start the Dialogue state worked. To do this, I made
+it so that if the custom event triggered like it was supposed to, the Debug Log would print "Trigger Event" to the console.
+While testing my code, "Trigger Event" wasn't being sent to the console when running the game and it helped me eventually solve this problem
+to make sure everything worked for sure.
+
+3. The Set Cursor Lock State could possibly be relevant in my Vertical Slice if I were to add a scenario where
+the cursor needs to not be locked for the player to click on something to not lose the game, and then the cursor
+would lock after they passed the scenario.
+
+4. The concept of a game state might be relevant to my Vertical Slice. Originally I thought I would have different
+states for different rounds of the game and the farther rounds would add more scenarios, but I now realize that
+I don't need states to implement it. I think a better application for states would be to make a state where the game
+is running and spawning scenarios and another state where scenarios stop spaawning for a brief people of time to give
+the player a break after a round ends. These are also both situations that cannot run at the same time so using states
+would be perfect for this.
