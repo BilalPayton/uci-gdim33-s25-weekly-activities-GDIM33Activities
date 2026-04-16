@@ -21,6 +21,4 @@ playing games that are difficult and give me a challenge to overcome.
 
 
 ## W2
-Write your W2 Devlog here.
-
-Continue adding additional headers below this one for future weeks and future activities.
+# Activity 1
