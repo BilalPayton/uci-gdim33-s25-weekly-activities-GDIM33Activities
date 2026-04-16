@@ -21,6 +21,8 @@ playing games that are difficult and give me a challenge to overcome.
 
 
 ## W2
-# Activity 1
+### Activity 1
 <img width="1531" height="1143" alt="Screenshot 2026-04-15 175402" src="https://github.com/user-attachments/assets/7d5b7e77-8370-452f-8555-3800ac5d0e44" />
 
+
+### Activity 2
