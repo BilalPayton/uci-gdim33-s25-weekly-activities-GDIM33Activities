@@ -45,3 +45,17 @@ I don't need states to implement it. I think a better application for states wou
 is running and spawning scenarios and another state where scenarios stop spaawning for a brief people of time to give
 the player a break after a round ends. These are also both situations that cannot run at the same time so using states
 would be perfect for this.
+
+## W4
+### Activity 1
+My goal for playtesting today will be to see if the gameplay is fun and not too difficult.
+
+Right now my core mechanics of pressing keyboard keys and reacting quickly because of the timer
+are in the game.
+
+Playtest Team Members: Alejandra, Kai, Laura
+
+Playest Notes:
+- At first my playtesters struggled with the controls, but eventually got used to them
+- Playtesters said the gameplay was fun
+- Playtesters think the difficulty is fine so far
