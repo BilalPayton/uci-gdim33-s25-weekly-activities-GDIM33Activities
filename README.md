@@ -59,3 +59,12 @@ Playest Notes:
 - At first my playtesters struggled with the controls, but eventually got used to them
 - Playtesters said the gameplay was fun
 - Playtesters think the difficulty is fine so far
+
+### Activity 2
+1. A writer could add more dialogue to this setup without writing any code because the for each loop
+allows every line and reply to be accessed and displayed in the game.
+
+2. There is no limit to the number of dialogue nodes that the writer could create without writing any code.
+
+3. The purpose of the "Regenerate Nodes" button is to be able to store information about new Node types from
+your created code and allow for them to be displayed as Visual Scipting Nodes in Graphs.
