@@ -5,6 +5,9 @@ namespace W4Activity
 {
     public class DialogueAdvancerW4 : MonoBehaviour
     {
+
+        [SerializeField] private DialogueNodeW4 _dialogueNodeW4;
+        
         // Singleton stuff- allows this class to be accessed from anywhere in the codebase without a reference (like a member variable)
         // do not edit this line
         public static DialogueAdvancerW4 _Instance {get; private set;}
@@ -25,6 +28,11 @@ namespace W4Activity
         public void ChooseDialogue (DialogueNodeW4 nextLine)
         {
             EventBus.Trigger(VsEventNames.NewDialogueEvent, nextLine);
+        }
+
+        public void Start()
+        {
+            ChooseDialogue(_dialogueNodeW4);
         }
     }
 }
