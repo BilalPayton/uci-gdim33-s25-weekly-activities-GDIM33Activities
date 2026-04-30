@@ -68,3 +68,29 @@ allows every line and reply to be accessed and displayed in the game.
 
 3. The purpose of the "Regenerate Nodes" button is to be able to store information about new Node types from
 your created code and allow for them to be displayed as Visual Scipting Nodes in Graphs.
+
+## W5
+### Activity 1
+ScriptableObject Implementation - Items:
+
+Discrete:
+1. Create a ScriptableObject for ItemData
+2. Create an Item C# Script
+3. Give Player an Inventory list of ItemData ScriptableObjects
+4. Store ItemData in Player Inventory when needed
+5. Remove ItemData from Player Inventory if used
+
+Detailed:
+1. Create a ScriptableObject C# script to store ItemData. Test by creating a few objects and tuning them in the inspector.
+2. Create a Item C# Script to store ItemData that also has child classes to easily implement Items (Inheritance & Polymorphism). Test by making a few child classes of the Item Script and making them do different things.
+3. Attach Item Scripts to respective GameObjects for Items. Ex. extra life child script attached to extra life GameObject. Test by tuning ItemData ScriptableObject to match the intended Item description/function.
+4. Add a collider to Items so the player can click them. Test by using OnMouseClick() method in the Items’ script if it can be clicked.
+5. When an Item is clicked, add the Item’s ItemData to the Player’s inventory of ItemData ScriptableObjects. Test by printing the inventory contents to the console using Debug.Log() to check if the Item’s data is present.
+6. When the player uses an Item, remove the respective Item’s ItemData from the Player’s inventory. Test by printing the inventory contents to the console using Debug.Log() to check if the used Item’s data is removed.
+
+### Activity 2
+What I accomplished in class today is that I create the ScriptableObject C# Script ItemData
+and created two potential Items that I could add and tune them in the inspector.
+For example, I create an ItemData ScriptableObject called Time Extender and gave it a description
+that it extends the time for players to react to scenarios, or the Extra Life Item that allows the Player
+to make one mistake and continue the game instead of the game automatically ending.

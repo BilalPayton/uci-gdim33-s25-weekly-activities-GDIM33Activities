@@ -15,6 +15,6 @@ MonoBehaviour:
   Line: Hello there!
   ReplyOptions:
   - line: Hi!
-    nextNode: {fileID: 0}
+    nextNode: {fileID: 11400000, guid: 4ebce0b858c0cd741ac277c4cf01909b, type: 2}
   - line: Fuh off
-    nextNode: {fileID: 0}
+    nextNode: {fileID: 11400000, guid: a4e331b4351254d428130c0946171325, type: 2}
