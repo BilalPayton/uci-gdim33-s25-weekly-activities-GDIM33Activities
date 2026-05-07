@@ -114,3 +114,14 @@ without consequence which is something I never thought about and will need to be
 is hard to determine fully due to only having a few amount of playtesters.
 
 ### Activity 2
+1. The Multiply setting of the Blend node makes the resulting color darker and less saturated than the input colors
+because multiplies the color values of the texture and tint property together result in a lower color value
+(because of decimals.. 0.9 x 0.9 = 0.081, low as shit)
+
+2. The resulting value will be more transculent than either of the values because the product of the values will be
+smaller than both the original values.
+
+3. The Shader gets these UV values from the properties tint and BaseMap from the TexturedUnlit Graph attached to the
+material.
+
+4. I mean it's alright.
