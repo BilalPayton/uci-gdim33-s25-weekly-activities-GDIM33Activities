@@ -94,3 +94,23 @@ and created two potential Items that I could add and tune them in the inspector.
 For example, I create an ItemData ScriptableObject called Time Extender and gave it a description
 that it extends the time for players to react to scenarios, or the Extra Life Item that allows the Player
 to make one mistake and continue the game instead of the game automatically ending.
+
+## W6
+### Activity 1
+1. What is new in my Itch build is that I have added 2 new scenarios for the players to react to
+as a way to add more variety to the game.
+
+2. [Itch Build](https://bilaluci.itch.io/totally-normal-rps-playtest-2)
+
+3. Goals:
+- Is the game too difficult/too easy?
+- Do the new scenarios add more variety to the gameplay?
+
+Playtest Notes:
+- Playtesters found a way to break how the game is supposed to be play by spamming all the controls
+without consequence which is something I never thought about and will need to be fixed
+
+- Playtesters think the gameplay is fun and has variety and is about medium difficulty, though this
+is hard to determine fully due to only having a few amount of playtesters.
+
+### Activity 2
