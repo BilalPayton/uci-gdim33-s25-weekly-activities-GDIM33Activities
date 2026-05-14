@@ -125,3 +125,18 @@ smaller than both the original values.
 material.
 
 4. I mean it's alright.
+
+## W7
+### Activity 1
+
+1. The data for the Vertex Color node came from the material assigned to the VertexColor shader graph that was also
+attached to the Shiba's mesh renderer.
+2. Because we are using the (x, y, z) components of the mesh’s surface normals as (r, g, b) colors as output for the fragment shader.
+3. Because color and the material are only being applied to the vertices of the Shiba and not the entire model. Given this Vertex Color
+is useful for giving color to models with less detail helping GPU run faster.
+4. Yes, the Shiba color is blue even though it is intended to look redish green from the material color.
+5. Using Vertex position data for debugging could be useful in noting the position the material coloring is at and if it needs to be edited
+depending on lighting for example.
+6. This error is present because the Shiba's surface normal is facing opposite to the lighting.
+7. We set the Blend Mode to Additive for the fire effect in Step (5) because it enhances the transparency
+of the effect.
