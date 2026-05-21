@@ -155,4 +155,20 @@ Playtest notes:
 Playtesters all had different answers about the difficulty of the game. Some thought that
 it was too easy while others thought it was too hard.
 
-### Activity 2
+### Activity 2B
+
+1. The Fraction node is used to animate the shine effect because it only takes the fractral part
+of its input and discards the number before the decimal, and because its input is increasing from
+the product of time and ShineSpeed, its value repeatedly loops from 0.0 to 0.99 which animates the shine effect.
+
+2. The Shine texture for the ShinySprite shader need to be black by default because black has a color value of 0 and when you
+add it to the Shine texture nothing happens to the chest, whereas white has a color value of 1 and adding it to the texture will
+make it brighter.
+
+3. The building texture (MainTex) we used in the ShaderGraph isn't applied to all of the Sprites that use the ShinySprite shader
+because MaskTex masks MainTex so the texture is not visible.
+
+4. We multiply fraction(time * ShineSpeed) with the speed variable inside the fraction instead of outside because it creates the
+animated shine effect on the chest whereas if we multiply fraction by ShineSpeed, we have the shine effect still on the chest but
+it is not animated. This is because fraction's decimal value will always be the same, but if we multiply it by time then it changes
+leading to the animated effect playing.
