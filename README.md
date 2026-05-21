@@ -140,3 +140,19 @@ depending on lighting for example.
 6. This error is present because the Shiba's surface normal is facing opposite to the lighting.
 7. We set the Blend Mode to Additive for the fire effect in Step (5) because it enhances the transparency
 of the effect.
+
+## W8
+### Activity 1
+Playtest: 
+What's new in my build is that I implemented a start screen to the game
+
+[Playtest Build](https://bilaluci.itch.io/totally-normal-rps-playtest-3)
+
+Playtest Goals:
+Determining game balancing (too easy, too hard, etc)
+
+Playtest notes:
+Playtesters all had different answers about the difficulty of the game. Some thought that
+it was too easy while others thought it was too hard.
+
+### Activity 2
