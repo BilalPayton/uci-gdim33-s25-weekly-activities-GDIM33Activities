@@ -84,9 +84,9 @@ Detailed:
 1. Create a ScriptableObject C# script to store ItemData. Test by creating a few objects and tuning them in the inspector.
 2. Create a Item C# Script to store ItemData that also has child classes to easily implement Items (Inheritance & Polymorphism). Test by making a few child classes of the Item Script and making them do different things.
 3. Attach Item Scripts to respective GameObjects for Items. Ex. extra life child script attached to extra life GameObject. Test by tuning ItemData ScriptableObject to match the intended Item description/function.
-4. Add a collider to Items so the player can click them. Test by using OnMouseClick() method in the Items’ script if it can be clicked.
-5. When an Item is clicked, add the Item’s ItemData to the Player’s inventory of ItemData ScriptableObjects. Test by printing the inventory contents to the console using Debug.Log() to check if the Item’s data is present.
-6. When the player uses an Item, remove the respective Item’s ItemData from the Player’s inventory. Test by printing the inventory contents to the console using Debug.Log() to check if the used Item’s data is removed.
+4. Add a collider to Items so the player can click them. Test by using OnMouseClick() method in the Itemsâ€™ script if it can be clicked.
+5. When an Item is clicked, add the Itemâ€™s ItemData to the Playerâ€™s inventory of ItemData ScriptableObjects. Test by printing the inventory contents to the console using Debug.Log() to check if the Itemâ€™s data is present.
+6. When the player uses an Item, remove the respective Itemâ€™s ItemData from the Playerâ€™s inventory. Test by printing the inventory contents to the console using Debug.Log() to check if the used Itemâ€™s data is removed.
 
 ### Activity 2
 What I accomplished in class today is that I create the ScriptableObject C# Script ItemData
@@ -131,7 +131,7 @@ material.
 
 1. The data for the Vertex Color node came from the material assigned to the VertexColor shader graph that was also
 attached to the Shiba's mesh renderer.
-2. Because we are using the (x, y, z) components of the mesh’s surface normals as (r, g, b) colors as output for the fragment shader.
+2. Because we are using the (x, y, z) components of the meshâ€™s surface normals as (r, g, b) colors as output for the fragment shader.
 3. Because color and the material are only being applied to the vertices of the Shiba and not the entire model. Given this Vertex Color
 is useful for giving color to models with less detail helping GPU run faster.
 4. Yes, the Shiba color is blue even though it is intended to look redish green from the material color.
@@ -201,3 +201,5 @@ will activate and deactivate when the scenario appears or disappears on the scre
 This doesn't have anything to do with the shader graph, but one problem I solved is getting the audio for when each scenario
 appears on screen to work after not knowing why it wasn't working. I use OnEnable() and OnDisable() to solve the problem so every time a scenario
 GameObject is enabled the sound plays and when it is disabled the sound stops playing.
+
+<img width="551" height="486" alt="Screenshot 2026-05-28 164354" src="https://github.com/user-attachments/assets/908d45c3-b777-4f4a-bdea-d39eafe5ac49" />
