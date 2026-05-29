@@ -172,3 +172,32 @@ because MaskTex masks MainTex so the texture is not visible.
 animated shine effect on the chest whereas if we multiply fraction by ShineSpeed, we have the shine effect still on the chest but
 it is not animated. This is because fraction's decimal value will always be the same, but if we multiply it by time then it changes
 leading to the animated effect playing.
+
+## W9
+### Activity 1
+
+We chose to talk about Minecraft.
+
+Cube Outline effect:
+When a player hovers cursor over a block there is an outline over it to indicate to the players what block they are going to either mine/place something on. 
+We think that this effect is a renderer feature that is applied to certain objects.
+This game effect is activated when the cursor is pointing to the specific game objects and it is deactivated when the cursor is not over the object. 
+
+Teleportation effect (Nether):
+Full-screen post-processing effect 
+Maybe it has a timer to activate and deactivate while the other world(Nether) loads.
+
+Effect of attacking something:
+When player hits something living (mob, another player) they turn red for a brief moment
+Material change? 
+An effect in an individual object's material
+Set a timer to control red effect using Time.deltaTime
+
+### Activity 2
+I made a shader graph that changes the color of a 2D texture. I don't really know what I might do with this in my game,
+but I might make it so that one of the scenario textures has a animated rainbow effect to add some flare to the game. It
+will activate and deactivate when the scenario appears or disappears on the screen.
+
+This doesn't have anything to do with the shader graph, but one problem I solved is getting the audio for when each scenario
+appears on screen to work after not knowing why it wasn't working. I use OnEnable() and OnDisable() to solve the problem so every time a scenario
+GameObject is enabled the sound plays and when it is disabled the sound stops playing.
