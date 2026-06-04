@@ -203,3 +203,40 @@ appears on screen to work after not knowing why it wasn't working. I use OnEnabl
 GameObject is enabled the sound plays and when it is disabled the sound stops playing.
 
 <img width="551" height="486" alt="Screenshot 2026-05-28 164354" src="https://github.com/user-attachments/assets/908d45c3-b777-4f4a-bdea-d39eafe5ac49" />
+
+## W10
+### Activity 1
+
+What's new?:
+Since my Milestone 2 submission, I have added music and sfx to make the game feel more alive instead
+of playing in complete silence. Each scenario has a unique sound effect that plays when they appear
+on screen. Additionally there is a new scenario called thumb in which the players have to press Up/Down arrow
+depending if the thumb shown is up or down to avoid losing.
+
+Playtesting Goal(s):
+Background suggestions from players
+
+Playtest Notes:
+Players said gameplay is good and they liked the addition of music and sfx.
+One player recommended to possible use a trippy background to represent the chaos of the game
+
+[Itch Build](https://bilaluci.itch.io/totally-normal-rps-playtest-4)
+
+### Activity 2
+A strategy a student could follow to paln engineering a game is to identify what asepcts of the game you need
+and jot down the best way to implement them. For example, if you game needs branching dialogue then make a note
+to use ScriptableObjects for that. Or say you need inheritance for the game, you could make a big bubble showing the parent class
+and small bubbles to show the child classes and if they differ or not. This allows the developer to have a stable plan as to what 
+is needed in their game and the most effective way to create it.
+
+How Planning Affects Scope:
+Planning affects your scope because you have an entire list of content that needs to be added to your game, and you can look back
+at it to determine whether you are within scope or need to cut out content to keep from going out of scope, or even if you have time
+to add more content that was not in the original scope of your project.
+
+### Activity 3
+A problem I fixed was finally getting the round system of my game to work so that as the game progresses players have less time to react
+to scenarios. How I fixed it is that instead of using a series of If statements in the GameController's UpdateRound() method, I use else if'
+statements instead so now the round updates properly.
+
+[Vertical Slice Commit](https://github.com/UCI-GDIM33/VerticalSlice/commit/05b570ebd6d8fa7ddb399ea2e90b58195f9fdb24)
